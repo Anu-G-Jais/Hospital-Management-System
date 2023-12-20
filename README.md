@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS appointments (
     FOREIGN KEY (patient_id) REFERENCES patients(id),
     FOREIGN KEY (doctor_id) REFERENCES doctors(id)
 );
-
+```
 
 ## 🛠️ Java Setup
 
