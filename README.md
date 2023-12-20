@@ -2,6 +2,10 @@
 
 Welcome to the Hospital Management System, a Java application designed for managing patient and doctor information as well as appointments in a hospital setting! 🚑
 
+## 🎓 Project Purpose
+
+This Hospital Management System is part of my ongoing efforts to enhance my skills in JDBC and MySQL. Through the development of this application, I aim to gain hands-on experience in database management and Java programming. Your contributions and feedback are valuable as they contribute to the continuous improvement of this project.
+
 ## 📋 Table of Contents
 
 - [Features](#features)
