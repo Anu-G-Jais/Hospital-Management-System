@@ -57,6 +57,7 @@ CREATE TABLE IF NOT EXISTS appointments (
     FOREIGN KEY (doctor_id) REFERENCES doctors(id)
 );
 
+
 ## 🛠️ Java Setup
 
 1. **Clone this repository to your local machine.**
