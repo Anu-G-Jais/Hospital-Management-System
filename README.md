@@ -65,7 +65,6 @@ CREATE TABLE IF NOT EXISTS appointments (
 3. **Ensure you have the MySQL Connector/J library in your classpath.**
 4. **Update the `url`, `username`, and `password` variables in `HospitalManagementSystem.java` to match your MySQL configuration.**
 
-```java
 // Update these variables with your MySQL configuration
 private static final String url = "jdbc:mysql://localhost:3306/hospital";
 private static final String username = "your_username";
