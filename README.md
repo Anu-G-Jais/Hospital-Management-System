@@ -56,3 +56,48 @@ CREATE TABLE IF NOT EXISTS appointments (
     FOREIGN KEY (patient_id) REFERENCES patients(id),
     FOREIGN KEY (doctor_id) REFERENCES doctors(id)
 );
+
+## 🛠️ Java Setup
+
+1. **Clone this repository to your local machine.**
+2. **Open the project in your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse).**
+3. **Ensure you have the MySQL Connector/J library in your classpath.**
+4. **Update the `url`, `username`, and `password` variables in `HospitalManagementSystem.java` to match your MySQL configuration.**
+
+```java
+// Update these variables with your MySQL configuration
+private static final String url = "jdbc:mysql://localhost:3306/hospital";
+private static final String username = "your_username";
+private static final String password = "your_password";
+
+# 🚀 Usage
+
+## Main Menu
+
+Upon running the application, you will be presented with the main menu:
+
+- **Add Patient:** Allows adding a new patient.
+- **View Patients:** Displays a list of all patients.
+- **Add Doctor:** Enables adding a new doctor.
+- **View Doctors:** Shows a list of all doctors.
+- **Book Appointment:** Books an appointment between a patient and a doctor.
+- **Exit:** Closes the application.
+
+## Patient Management
+
+- **Add Patient:** Enter patient details, including name, age, and gender, to add a new patient.
+- **View Patients:** Displays a list of all patients, including their ID, name, age, and gender.
+
+## Doctor Management
+
+- **Add Doctor:** Enter doctor details, including name and specialization, to add a new doctor.
+- **View Doctors:** Shows a list of all doctors, including their ID, name, and specialization.
+
+## Appointment Booking
+
+- **Book Appointment:** Enter patient ID, doctor ID, and appointment date to book a new appointment. Checks for doctor availability.
+
+## 🤝 Contributing
+
+Feel free to contribute to the development of this Hospital Management System by submitting issues or pull requests. Contributions are welcome and appreciated!
+
